@@ -1,0 +1,10 @@
+flask
+faster-whisper
+ffmpeg-python
+requests
+langchain
+langchain-google-genai
+python-dotenv
+google-generativeai
+langchain
+pip install yt-dlp

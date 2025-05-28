@@ -1,0 +1,40 @@
+
+--- Gemini Response @ 2025-05-28 16:59:08.520874 ---
+```json
+{
+  "accent": "American",
+  "confidence": 60,
+  "summary": "Based on the pronunciation of \"Thank you very much\" and the filler words, the accent leans towards American English, although the limited context makes a definitive classification difficult."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-28 17:23:20.241332 ---
+```json
+{
+  "accent": "American",
+  "confidence": 60,
+  "summary": "Based on the pronunciation of 'little' and the general lack of distinct features from other accents, the speaker likely has an American accent, though the limited transcript makes it difficult to be certain."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-28 17:45:49.643730 ---
+```json
+{
+  "accent": "American",
+  "confidence": 95,
+  "summary": "The speaker uses American English pronunciation and colloquialisms, such as \"get it seen and get it shared\" and the specific rhythm and intonation patterns common in American speech."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-28 17:47:34.558632 ---
+```json
+{
+  "accent": "African",
+  "confidence": 60,
+  "summary": "The word 'Tracaris' sounds like a name potentially influenced by African languages or naming conventions, though the single word provides limited evidence."
+}
+```
+--- End of Response ---
