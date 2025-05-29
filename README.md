@@ -12,6 +12,10 @@ A Flask API that:
 ```bash
 git clone https://github.com/your-username/accent-detector.git
 cd accent-detector
+docker-compose up --build
+Then go to:
+👉 http://localhost:5000
+add your env data
 ```
 
 ---
