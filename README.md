@@ -4,7 +4,8 @@ A simple Flask API that accepts a video URL, extracts and transcribes the audio 
 Setup Instructions
 Clone the repository:
 
-
+.\venv\Scripts\Activate.ps1
+python app.py 
 
 git clone https://github.com/your-username/accent-detector.git
 cd accent-detector
@@ -95,3 +96,31 @@ The API supports any video URL that yt-dlp can download (YouTube, Streamable, di
 Ensure your Google Gemini API key is valid and has proper access.
 
 For best performance, you may want to run on a machine with a GPU.
+
+
+
+Supported Video URL Types
+YouTube Standard videos (https://www.youtube.com/watch?v=...)
+Streamable
+Short video hosting platform links (https://streamable.com/abc123)
+imeo
+Vimeo video URLs (https://vimeo.com/12345678)
+Direct MP4 or other video file links
+Any direct HTTP(S) link to a video file on a server (e.g., .mp4, .webm, .mkv)
+Examples: https://example.com/videos/sample-video.mp4
+Facebook Videos
+Public Facebook video URLs
+6. Twitter Videos
+Twitter video tweets URLs
+7. Dailymotion
+URLs from Dailymotion platform
+8. TikTok
+TikTok video URLs (subject to region and platform changes)
+9. Twitch Clips and Videos
+10. Other supported platforms (partial list)
+SoundCloud (for audio)
+Instagram (videos/stories)
+Bilibili
+Rumble
+PeerTube
+And many more 
