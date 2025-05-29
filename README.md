@@ -195,4 +195,4 @@ POST http://127.0.0.1:5000/analyze
 
 ---
 
-If you want this in a downloadable `.md` file format directly, I can generate one. Just ask 💪
+
