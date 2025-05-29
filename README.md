@@ -200,3 +200,28 @@ POST http://127.0.0.1:5000/analyze
 ---
 
 
+## ✅ Test the Accent Detector API via Postman
+**You can test the API using Postman through the following public ngrok URL: **
+
+🔗 POST https://444c-185-84-106-206.ngrok-free.app/analyze
+
+**🔸 Headers:**
+           Content-Type: application/json
+
+🔸 Body (raw JSON):
+
+{
+  "video_url": "https://streamable.com/kzb6ki"
+}
+🔸 Example Response:
+{
+  "accent": "American",
+  "confidence": 85,
+  "summary": "The speaker uses common American English pronunciations and colloquialisms, suggesting an American accent with a high degree of likelihood."
+}
+
+**🔔 Note: This link only works when I have ngrok running, so feel free to notify me before testing.
+Alternatively, you can run the project locally by following the setup steps in the README.
+
+Let me know if you'd like help running it on your machine 🚀**
+
