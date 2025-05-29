@@ -58,3 +58,103 @@
 }
 ```
 --- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:03:18.705536 ---
+```json
+{
+  "accent": "Indian",
+  "confidence": 95,
+  "summary": "The speaker's accent is classified as Indian due to the pronunciation of certain words (e.g., 'sinness' for 'stillness'), intonation patterns, and the inclusion of the greeting 'salam alaikum', which are indicative of Indian English."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:07:14.801476 ---
+```json
+{
+  "accent": "American",
+  "confidence": 95,
+  "summary": "The speaker uses American English pronunciation and colloquialisms, such as \"get it seen and get it shared\" and \"random person scrolling Facebook\", which are characteristic of American speech patterns."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:08:32.838138 ---
+```json
+{
+  "accent": "American",
+  "confidence": 95,
+  "summary": "The speaker uses common American pronunciations and colloquialisms, indicating a high likelihood of an American accent."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:09:33.292942 ---
+```json
+{
+  "accent": "American",
+  "confidence": 60,
+  "summary": "The word \"Tracaris\" is a made-up word, but based on its spelling and pronunciation tendencies in English, it is more likely to be spoken in an American accent."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:16:14.867521 ---
+```json
+{
+  "accent": "American",
+  "confidence": 95,
+  "summary": "The speaker uses American English pronunciation, vocabulary, and intonation patterns throughout the speech, indicating a high likelihood of an American accent."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:18:07.397495 ---
+```json
+{
+  "accent": "American",
+  "confidence": 95,
+  "summary": "The speaker uses American pronunciations and colloquialisms, such as \"get it seen\" and the specific joke delivery, which are indicative of an American accent."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:23:31.840983 ---
+```json
+{
+  "accent": "Indian",
+  "confidence": 95,
+  "summary": "The speaker's accent is classified as Indian due to the pronunciation of certain words (e.g., \"remoteest\", \"proudness\"), grammatical structures, and overall speech patterns that are characteristic of Indian English."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:26:54.401749 ---
+```json
+{
+  "accent": "American",
+  "confidence": 95,
+  "summary": "The speaker uses American pronunciations and colloquialisms, and there are no strong indicators of other accents."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:32:53.602054 ---
+```json
+{
+  "accent": "African American Vernacular English (AAVE)",
+  "confidence": 90,
+  "summary": "The speaker exhibits several phonological and grammatical features consistent with African American Vernacular English, including the pronunciation of \"fate\" as \"fate\", the use of \"one thinks\" instead of \"some think\", and specific intonation patterns."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:39:24.088506 ---
+```json
+{
+  "accent": "American",
+  "confidence": 85,
+  "summary": "The vocabulary ('extra credit', 'Miss', 'one guy') and references to American popular culture ('Crazy Anatomy', 'Shander Rhymes') strongly suggest an American accent."
+}
+```
+--- End of Response ---

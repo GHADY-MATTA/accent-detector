@@ -1,0 +1,9 @@
+--- Analysis @ 2025-05-29 10:32:53.606001 ---
+Video URL: https://www.youtube.com/watch?v=7OTAYRqTfys
+Accent: African American Vernacular English (AAVE) (Confidence: 90%)
+Summary: The speaker exhibits several phonological and grammatical features consistent with African American Vernacular English, including the pronunciation of "fate" as "fate", the use of "one thinks" instead of "some think", and specific intonation patterns.
+Transcript:
+ In the 8th grade, my English class had to read Romeo and Juliet.  For extra credit, Miss Cinder made us act out all the parts.  Salscaferio was Romeo and as fate would have it, I was Juliet.  All the other girls were jealous, but I had a slightly different take.  I told Miss Cinder Juliet was an idiot.  For starters, she falls for the one guy she can't have and then she blames fate for her  own bad decision.  Miss Cinder explained to me that when fate comes into play, choice sometimes goes out  the window.  At the ripe age of 13, I was very clear that love, like life, is about making choices.  And fate has nothing to do with it.  One thinks it's so romantic.  Romeo and Juliet, a trulla of how sad.  If Juliet was stupid enough to fall for the enemy, drink the bottle of poison and sleep  in Mussolines, she tells us what ever she got.  This was from Crazy Anatomy and I was created by Shander Rhymes.  I'm just reading it from this paper and it is available online if you want it for  one walk.  Okay, see ya.
+Gemini Response:
+{'accent': 'African American Vernacular English (AAVE)', 'confidence': 90, 'summary': 'The speaker exhibits several phonological and grammatical features consistent with African American Vernacular English, including the pronunciation of "fate" as "fate", the use of "one thinks" instead of "some think", and specific intonation patterns.'}
+--- End of Entry ---

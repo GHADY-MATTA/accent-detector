@@ -58,12 +58,23 @@ def download_video(url):
 #     except Exception as e:
 #         raise Exception(f"Failed to download video: {e}")
 
+# def extract_audio(video_path):
+#     audio_path = video_path.replace(".mp4", ".wav")
+#     command = [
+#         "ffmpeg", "-y", "-i", video_path,
+#         "-ar", "16000", "-ac", "1", "-f", "wav", audio_path
+#     ]
+#     subprocess.run(command, check=True)
+#     return audio_path
 def extract_audio(video_path):
-    audio_path = video_path.replace(".mp4", ".wav")
+    base, _ = os.path.splitext(video_path)
+    audio_path = base + ".wav"
+
     command = [
         "ffmpeg", "-y", "-i", video_path,
         "-ar", "16000", "-ac", "1", "-f", "wav", audio_path
     ]
+
     subprocess.run(command, check=True)
     return audio_path
 
@@ -73,9 +84,16 @@ def transcribe_audio(audio_path):
     return transcript
 
 def log_result(video_url, transcript, result):
+    # Make sure the logs folder exists
     os.makedirs("logs", exist_ok=True)
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(f"\n--- Analysis @ {datetime.now()} ---\n")
+
+    # Create a unique filename with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = f"logs/accent_result_{timestamp}.txt"
+
+    # Write data into the new file
+    with open(log_file, "w", encoding="utf-8") as f:
+        f.write(f"--- Analysis @ {datetime.now()} ---\n")
         f.write(f"Video URL: {video_url}\n")
         f.write(f"Accent: {result['accent']} (Confidence: {result['confidence']}%)\n")
         f.write(f"Summary: {result['summary']}\n")
