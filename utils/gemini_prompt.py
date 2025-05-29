@@ -35,21 +35,16 @@ def clean_gemini_response(raw_response: str) -> str:
 
 def analyze_accent(transcript: str) -> dict:
     prompt = f"""
-You are an expert in phonetics and English accents. Your task is to classify a speaker’s English accent based on their speech transcript. Only respond if you are confident based on clear accent patterns in word choice, grammar, or syntax.
+You are an expert in accent detection. Based on the transcript below, classify the speaker's English accent.
 
 Instructions:
-- Guidelines:
-- Base your classification on vocabulary, phrasing, grammatical structure, idioms, and known regional variations.
-- Respond using a realistic and geographically relevant label (e.g., "Indian", "Nigerian", "British", "American", "Filipino", "Kenyan", "South African", "Middle Eastern", "Caribbean", etc.)
-- You may also use broader regional labels when specificity is not possible (e.g., "West African", "Southeast Asian", "European (non-UK)", "Latin American").
 - If the transcript does not provide enough evidence to confidently classify the accent, respond with "Unknown".
-- Confidence should be a number from 0 to 100, where:
+- Confidence(in english accent !!) should be a number from 0 to 100, where:
   - 90+ = Accent is very clear and distinctive
   - 70–89 = Likely, but not guaranteed
   - 40–69 = Uncertain, weak indicators
   - <40 = Most likely unknown
-- Provide a realistic confidence score from 0 to 100 (not always high)
-- Explain your decision in one short sentence using accent-specific traits (e.g., vocabulary, pronunciation, sentence structure)
+- Write a 1-sentence explanation
 
 Transcript:
 \"\"\"

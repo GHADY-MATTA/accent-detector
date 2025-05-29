@@ -158,3 +158,33 @@
 }
 ```
 --- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:43:43.473470 ---
+```json
+{
+  "accent": "Unknown",
+  "confidence": 30,
+  "summary": "The transcript is too short and contains too few distinct phonetic features to confidently classify the speaker's accent."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:48:13.130101 ---
+```json
+{
+  "accent": "Indian English",
+  "confidence": 95,
+  "summary": "The speaker's accent is clearly Indian English, based on pronunciation patterns, intonation, and grammatical structures commonly found in Indian English speakers (e.g., use of 'only', sentence structure, pronunciation of 'track')."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 10:50:39.018092 ---
+```json
+{
+  "accent": "American",
+  "confidence": 85,
+  "summary": "The speaker uses common American pronunciations and phrasing, such as \"literally years\" and the general intonation patterns, which strongly suggest an American accent."
+}
+```
+--- End of Response ---
