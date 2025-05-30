@@ -198,3 +198,23 @@
 }
 ```
 --- End of Response ---
+
+--- Gemini Response @ 2025-05-29 11:31:39.162558 ---
+```json
+{
+  "accent": "American",
+  "confidence": 85,
+  "summary": "The speaker uses common American pronunciations and phrasing, such as \"literally years\" and the intonation patterns, strongly suggesting an American accent."
+}
+```
+--- End of Response ---
+
+--- Gemini Response @ 2025-05-29 11:38:15.718676 ---
+```json
+{
+  "accent": "American",
+  "confidence": 85,
+  "summary": "The speaker exhibits characteristics of a General American accent, with clear pronunciation and no strong regional indicators, although there are some very slight non-native pronunciations."
+}
+```
+--- End of Response ---
